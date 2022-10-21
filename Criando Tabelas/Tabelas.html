@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Criando Tabelas</title>
+    <style>
+        table tr:nth-child(even) {
+            background-color: azure;
+        }
+
+        table tr:hover td {
+            background-color: grey;
+        }
+
+        table thead th {
+            background-color: black;
+            color: white;
+        }
+
+    </style>
+</head>
+
+<body>
+    
+    <table summary="Esta tabela referece a idade da turma A" width="600" align="center" cellpadding="10" cellspacing="0">
+        <caption>Tabela de idades dos alunos!</caption>
+        <tr>
+            <thead>
+                <th title="Nome completo">NOME</th>
+                <th>IDADE</th>
+            </thead>
+        </tr>
+        <tbody>
+            <tr>
+                <td>DIOGO</td>
+                <td>47</td>
+            </tr>
+            <tr>
+                <td>MARIA</td>
+                <td>25</td>
+            </tr>
+            <tr>
+                <td>JOAO</td>
+                <td>42</td>
+            </tr>
+            <tr>
+                <td>ANA</td>
+                <td>35</td>
+            </tr>
+            <tr>
+                <td>MARCOS</td>
+                <td>52</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+
+
+</body>
+
+</html>
